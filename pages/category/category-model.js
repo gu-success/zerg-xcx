@@ -14,7 +14,6 @@ class Category extends Base{
     }
     this.request(params);
   }
-
   /*获得某种分类的商品*/
   getProductsByCategory(id,callBack){
     var params = {
